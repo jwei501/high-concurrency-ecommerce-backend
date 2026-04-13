@@ -1,0 +1,17 @@
+package com.jiuzhang.seckill_demo1.db.dao;
+
+import com.jiuzhang.seckill_demo1.db.po.Order;
+
+
+public interface OrderDao {
+
+    void insertOrder(Order order);
+
+    Order queryOrder(String orderNo);
+
+    void updateOrder(Order order);
+
+
+
+
+}
